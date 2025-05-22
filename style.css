@@ -1,0 +1,23 @@
+:root {
+	--yellow: #f4d04e;
+	--gray-dark: #111111;
+	--gray-light: #6b6b6b;
+	--white: #fff;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: 'Figtree', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+    background-color: var(--yellow);
+}
